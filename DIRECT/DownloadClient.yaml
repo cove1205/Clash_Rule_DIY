@@ -1,26 +1,35 @@
 payload:
-  # 参考于 @ACL4SSR/ACL4SSR 的 Download.list
-  # 常见下载客户端
-  - PROCESS-NAME,aria2c.exe
-  - PROCESS-NAME,fdm.exe
-  - PROCESS-NAME,Folx.exe
-  - PROCESS-NAME,NetTransport.exe
-  - PROCESS-NAME,Thunder.exe
-  - PROCESS-NAME,Transmission.exe
-  - PROCESS-NAME,uTorrent.exe
-  - PROCESS-NAME,WebTorrent.exe
-  - PROCESS-NAME,WebTorrent Helper.exe
-  - PROCESS-NAME,qbittorrent.exe
-
-  # bt
-  - DOMAIN-SUFFIX,smtp
+  - DOMAIN-SUFFIX,qbittorrent.org
   - DOMAIN-KEYWORD,aria2
-
-  # XunLei
+  - DOMAIN-KEYWORD,thunder
+  - DOMAIN-KEYWORD,xlliveud
+  - DOMAIN-KEYWORD,xunlei
+  - DOMAIN-KEYWORD,yunpan
+  - PROCESS-NAME,BitComet
+  - PROCESS-NAME,BitComet.exe
+  - PROCESS-NAME,BitComet_x64.exe
+  - PROCESS-NAME,DownloadService
   - PROCESS-NAME,DownloadService.exe
-
-  # Tencent Weiyun
+  - PROCESS-NAME,Folx
+  - PROCESS-NAME,Folx.exe
+  - PROCESS-NAME,NetTransport
+  - PROCESS-NAME,NetTransport.exe
+  - PROCESS-NAME,Thunder
+  - PROCESS-NAME,Thunder.exe
+  - PROCESS-NAME,Transmission
+  - PROCESS-NAME,Transmission.exe
+  - PROCESS-NAME,WebTorrent
+  - PROCESS-NAME,WebTorrent.exe
+  - PROCESS-NAME,WebTorrentHelper
+  - PROCESS-NAME,WebTorrentHelper.exe
+  - PROCESS-NAME,Weiyun
   - PROCESS-NAME,Weiyun.exe
-
-  #Baidu disk
+  - PROCESS-NAME,aria2c
+  - PROCESS-NAME,aria2c.exe
   - PROCESS-NAME,baidunetdisk.exe
+  - PROCESS-NAME,fdm
+  - PROCESS-NAME,fdm.exe
+  - PROCESS-NAME,qbittorrent
+  - PROCESS-NAME,qbittorrent.exe
+  - PROCESS-NAME,uTorrent
+  - PROCESS-NAME,uTorrent.exe
