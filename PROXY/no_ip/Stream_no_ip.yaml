@@ -6,7 +6,6 @@
 # PBS、Spotify、TaiwanGood、Tiktok Intl、Twitch、ViuTV、ShowTime、iQiYi Global、Himalaya Podcast、Overcast、WeTV 
 # 的规则组
 payload:
-  - DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
   - DOMAIN-SUFFIX,netflix.ca
   - DOMAIN-SUFFIX,primevideo.cc
   - DOMAIN-SUFFIX,amazonvideo.cc

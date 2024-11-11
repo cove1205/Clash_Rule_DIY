@@ -1,5 +1,4 @@
 payload:
-  - DOMAIN,this_ruleset_is_made_by_sukkaw.ruleset.skk.moe
   - IP-CIDR,23.246.18.0/23,no-resolve
   - IP-CIDR,35.186.224.47/32,no-resolve
   - IP-CIDR,37.77.184.0/21,no-resolve
