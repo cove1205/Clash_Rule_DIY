@@ -1,0 +1,5 @@
+payload:
+  - DOMAIN-SUFFIX,null
+  - DOMAIN-SUFFIX,undefined
+  - DOMAIN-SUFFIX,geo2.adobe.com
+  - DOMAIN-SUFFIX,in.applicationinsights.azure.com
