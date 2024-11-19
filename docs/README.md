@@ -242,12 +242,6 @@ function overwriteProxyGroups(params) {
       regex: /(挪威|NO|Norway|🇳🇴)/i,
     },
     {
-      code: "CN",
-      name: "🇨🇳 中国",
-      icon: "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/flags/cn.svg",
-      regex: /(中国|CN|China|PRC|🇨🇳)/i,
-    },
-    {
       name: "其它 - 自动选择",
       regex: /(?!.*(?: 剩余 | 到期 | 主页 | 官网 | 游戏 | 关注))(.*)/,
     },
@@ -275,8 +269,6 @@ function overwriteProxyGroups(params) {
       otherProxies.push(proxy.name);
     }
   }
-
-  availableCountryCodes.add("🇨🇳 中国");
 
   const autoProxyGroupRegexs = countryRegions
     .filter((region) => availableCountryCodes.has(region.name))
