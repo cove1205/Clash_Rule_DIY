@@ -1,6 +1,8 @@
 payload:
   - DOMAIN-SUFFIX,steam.caigamer.com
   - DOMAIN-SUFFIX,99.df1319.com
+  - DOMAIN-SUFFIX,happyeyez.com
+  - DOMAIN-SUFFIX,happy-flutter.com
   # 以上是自定义内容
   - DOMAIN-SUFFIX,chaoxing.cc
   - DOMAIN-SUFFIX,3.cn
